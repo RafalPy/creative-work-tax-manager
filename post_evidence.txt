@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d "{\"name\": \"placeholder_name33\", \"description\": \"place_holder_description33\", \"date\": \"22-04-2025\"}" http://localhost:5000/evidence/
