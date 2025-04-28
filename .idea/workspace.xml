@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7343621c-2655-47b4-920f-f134ad8b5202" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/creative-work-tax-manager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
+    <list default="true" id="7343621c-2655-47b4-920f-f134ad8b5202" name="Changes" comment="functionality added to create evidence and to save it in DB">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/ping.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/ping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RafalPy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RafalPy/creative-work-tax-manager&quot;,
+    &quot;accountId&quot;: &quot;42ed801b-7252-4ded-88c5-4f4c56f508fa&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -39,6 +49,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for app_tests.TestCashman.test_get_evidence.executor": "Run",
+    "Python tests.Python tests in app_tests.py.executor": "Run",
     "Python.delete_evidence.executor": "Run",
     "Python.inserts.executor": "Run",
     "Python.ping.executor": "Run",
@@ -52,6 +64,28 @@
       <recent name="C:\Users\PC\PycharmProjects\creative-work-tax-manager\app\api" />
       <recent name="C:\Users\PC\PycharmProjects\creative-work-tax-manager\app" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python tests for app_tests.TestCashman.test_get_evidence" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="creative-work-tax-manager" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;app_tests.TestCashman.test_get_evidence&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for app_tests.TestCashman.test_get_evidence" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -69,7 +103,20 @@
       <option name="presentableId" value="Default" />
       <updated>1744372293583</updated>
     </task>
+    <task id="LOCAL-00001" summary="functionality added to create evidence and to save it in DB">
+      <option name="closed" value="true" />
+      <created>1745790092326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745790092326</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="functionality added to create evidence and to save it in DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="functionality added to create evidence and to save it in DB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

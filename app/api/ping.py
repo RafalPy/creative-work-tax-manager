@@ -1,3 +1,4 @@
+'''
 from app.models import db
 from app.app import create_app
 
@@ -9,3 +10,4 @@ def hello_world():
 
 if __name__ == "__main__":
     app.run(debug=True)
+'''

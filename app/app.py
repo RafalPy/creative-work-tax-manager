@@ -14,7 +14,11 @@ def create_app():
     app.register_blueprint(evidence_bp, url_prefix='/evidence')
     return app
 
+app = create_app()
 
+@app.route("/")
+def ping():
+    return "PONG!"
 
 #flask --app app run --debug
 #https://auth0.com/blog/developing-restful-apis-with-python-and-flask/
