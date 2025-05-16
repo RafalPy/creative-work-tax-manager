@@ -2,6 +2,7 @@ from flask import Blueprint, jsonify, request
 from app.models import db
 from app.models.evidence import Evidence
 
+
 evidence_bp = Blueprint('evidence', __name__)
 
 
@@ -11,6 +12,17 @@ def get_evidence():
     evidence = db.session.query(Evidence).all()
     evidence_list = [e.to_dict() for e in evidence]
     return jsonify(evidence_list) #chat gtp zapytać jaka różnica z jsonify i bez
+
+@evidence_bp.route('/<int:evidence_id>', methods=['GET'])
+def get_evidence_by_id(evidence_id):
+    evidence = db.session.query(Evidence).get(evidence_id)
+    return jsonify(evidence.to_dict())
+
+'''
+app.route("/user/<int:user_id>")
+def get_user(user_id):
+    return f"User is {next((user['name'] for user in users if user['id'] == user_id), 'Not Found')}"
+'''
 
 @evidence_bp.route('/', methods=['POST'])
 def add_evidence():
@@ -23,6 +35,8 @@ def add_evidence():
     db.session.add(new_evidence)
     db.session.commit()
     return jsonify({'id': new_evidence.id}), 201
+
+
 
 
 
