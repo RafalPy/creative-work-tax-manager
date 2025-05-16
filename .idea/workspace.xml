@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7343621c-2655-47b4-920f-f134ad8b5202" name="Changes" comment="Commit - state before cleanup">
+    <list default="true" id="7343621c-2655-47b4-920f-f134ad8b5202" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/inserts.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/inserts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/queries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post_evidence.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747410247650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit - state before cleanup">
+      <option name="closed" value="true" />
+      <created>1747414073437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747414073437</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,8 +151,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="functionality added to create evidence and to save it in DB" />
     <MESSAGE value="tests added connectivity health check (ping pong response) and for getting evidence" />
-    <MESSAGE value="Commit - state before cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit - state before cleanup" />
+    <MESSAGE value="Minor clean up" />
+    <MESSAGE value="Minor clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor clean up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
