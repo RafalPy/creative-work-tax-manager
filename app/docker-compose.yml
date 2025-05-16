@@ -25,6 +25,8 @@ services:
       - "8080:80"
     networks:
       - pgnetwork
+    depends_on:
+      - postgres
 
 volumes:
   pgdata:

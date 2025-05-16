@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7343621c-2655-47b4-920f-f134ad8b5202" name="Changes" comment="functionality added to create evidence and to save it in DB">
+    <list default="true" id="7343621c-2655-47b4-920f-f134ad8b5202" name="Changes" comment="tests added connectivity health check (ping pong response) and for getting evidence">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/ping.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/ping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/evidence.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/evidence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/queries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +47,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for app_tests.TestCashman.test_get_evidence.executor": "Run",
-    "Python tests.Python tests in app_tests.py.executor": "Run",
-    "Python.delete_evidence.executor": "Run",
-    "Python.inserts.executor": "Run",
-    "Python.ping.executor": "Run",
-    "Python.queries.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for app_tests.TestCashman.test_get_evidence.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in app_tests.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.delete_evidence.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inserts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.queries.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC\PycharmProjects\creative-work-tax-manager\app\api" />
@@ -111,12 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1745790092326</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tests added connectivity health check (ping pong response) and for getting evidence">
+      <option name="closed" value="true" />
+      <created>1745837610047</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745837610047</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="functionality added to create evidence and to save it in DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="functionality added to create evidence and to save it in DB" />
+    <MESSAGE value="tests added connectivity health check (ping pong response) and for getting evidence" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests added connectivity health check (ping pong response) and for getting evidence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
