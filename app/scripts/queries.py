@@ -15,7 +15,6 @@ for element in evidence:
     print(f"ID {element.id} has name {element.name} is for {element.description} and created on {element.date}")
 
 '''deleting query by id'''
-session.query(Evidence).filter_by(id=4).delete()
-session.commit()
+#session.query(Evidence).filter_by(id=4).delete()
+#session.commit()
 
-help()

@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7343621c-2655-47b4-920f-f134ad8b5202" name="Changes" comment="tests added connectivity health check (ping pong response) and for getting evidence">
+    <list default="true" id="7343621c-2655-47b4-920f-f134ad8b5202" name="Changes" comment="Commit - state before cleanup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/evidence.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/evidence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/queries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/inserts.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/inserts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/queries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post_evidence.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +66,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\PycharmProjects\creative-work-tax-manager\app\scripts" />
       <recent name="C:\Users\PC\PycharmProjects\creative-work-tax-manager\app\api" />
       <recent name="C:\Users\PC\PycharmProjects\creative-work-tax-manager\app" />
     </key>
@@ -120,24 +125,49 @@
       <option name="project" value="LOCAL" />
       <updated>1745837610047</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit - state before cleanup">
+      <option name="closed" value="true" />
+      <created>1747410247650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747410247650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="functionality added to create evidence and to save it in DB" />
     <MESSAGE value="tests added connectivity health check (ping pong response) and for getting evidence" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests added connectivity health check (ping pong response) and for getting evidence" />
+    <MESSAGE value="Commit - state before cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit - state before cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/models/queries.py</url>
+          <url>file://$PROJECT_DIR$/app/scripts/queries.py</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app/app.py</url>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/scripts/queries.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
