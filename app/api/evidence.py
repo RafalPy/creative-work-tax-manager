@@ -10,19 +10,13 @@ evidence_bp = Blueprint('evidence', __name__)
 @evidence_bp.route('/', methods=['GET'])
 def get_evidence():
     evidence = db.session.query(Evidence).all()
-    evidence_list = [e.to_dict() for e in evidence]
+    evidence_list = [e.to_dictionary() for e in evidence]
     return jsonify(evidence_list) #chat gtp zapytać jaka różnica z jsonify i bez
 
 @evidence_bp.route('/<int:evidence_id>', methods=['GET'])
 def get_evidence_by_id(evidence_id):
     evidence = db.session.query(Evidence).get(evidence_id)
-    return jsonify(evidence.to_dict())
-
-'''
-app.route("/user/<int:user_id>")
-def get_user(user_id):
-    return f"User is {next((user['name'] for user in users if user['id'] == user_id), 'Not Found')}"
-'''
+    return jsonify(evidence.to_dictionary())
 
 @evidence_bp.route('/', methods=['POST'])
 def add_evidence():

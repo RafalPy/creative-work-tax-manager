@@ -15,7 +15,7 @@ class Evidence(Base):
         self.description = description
         self.date = date
 
-    def to_dict(self):
+    def to_dictionary(self):
         return {
             'id': self.id,
             'name': self.name,
