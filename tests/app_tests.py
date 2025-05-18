@@ -1,5 +1,5 @@
 import unittest
-from app.app import ping
+from app.api.ping import ping
 import requests
 import json
 from datetime import date
