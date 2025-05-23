@@ -30,8 +30,16 @@ def add_evidence():
     db.session.commit()
     return jsonify({'id': new_evidence.id}), 201
 
+@evidence_bp.route('/<int:evidence_id>', methods=['DELETE'])
+def delete_evidence(evidence_id):
+    evidence = db.session.get(Evidence, evidence_id)
+    if not evidence:
+        return jsonify({"error": "Evidence not found"}), 404
+
+    db.session.delete(evidence)
+    db.session.commit()
+    return jsonify({"message": f"Evidence {evidence_id} deleted"}), 200
 
 
+#curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"Sample Evidence\",\"description\":\"This is a sample description.\",\"date\":\"2025-04-27\"}" http://127.0.0.1:5000/api/evidence/
 
-
-#curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"Sample Evidence\",\"description\":\"This is a sample description.\",\"date\":\"2025-04-27\"}" http://127.0.0.1:5000/evidence/
