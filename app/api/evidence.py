@@ -15,7 +15,9 @@ def get_evidence():
 
 @evidence_bp.route('/<int:evidence_id>', methods=['GET'])
 def get_evidence_by_id(evidence_id):
-    evidence = db.session.query(Evidence).get(evidence_id)
+    evidence = db.session.get(Evidence, evidence_id)
+    if not evidence:
+        return jsonify({"error": "Evidence not found"}), 404
     return jsonify(evidence.to_dictionary())
 
 @evidence_bp.route('/', methods=['POST'])
@@ -40,6 +42,10 @@ def delete_evidence(evidence_id):
     db.session.commit()
     return jsonify({"message": f"Evidence {evidence_id} deleted"}), 200
 
+@evidence_bp.route('/<int:evidence_id>', methods=['DELETE'])
+def update_evidence(evidence_id):
+    evidence = db.session.get(Evidence, evidence_id)
+    db.session.commit()
 
 #curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"Sample Evidence\",\"description\":\"This is a sample description.\",\"date\":\"2025-04-27\"}" http://127.0.0.1:5000/api/evidence/
 
